@@ -1,0 +1,12 @@
+[package]
+name = "bidi-rs"
+version = "0.1.0"
+authors = ["Yaacov Akiba Slama <admin@helok.app>"]
+edition = "2018"
+
+[lib]
+name = "bidi"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+unic-bidi = "0.9.0"
